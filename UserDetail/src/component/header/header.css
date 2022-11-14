@@ -1,0 +1,22 @@
+.header
+{
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    
+    align-items: center;
+}
+.search input
+{
+    width: 30%;
+    border-radius: 28px;
+    height: 30px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.search{
+    padding-left: 30px;
+    width: 100%;
+}

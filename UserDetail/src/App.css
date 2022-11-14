@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.adduser
+{
+  width: 100%;
+  display: flex;
+}
+.name
+{
+  height: 30px;
+  width: 30%;
+  padding: 10px;
+  font-size: 18px;
+}
+.btn
+{
+  background-color: rgb(18, 160, 18);
+  position: absolute;
+  top: 41px;
+  height: 37px;
+  width: 10%;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+.user-detail
+{
+  display: flex;
+  /* outline: auto; */
+  border: solid 2px;
+  border-color: rgba(70, 66, 66, 0.472);
+  padding: 15px;
+  justify-content: space-around;
+  border-radius: 5px;
+  
+}
+.displayUser
+{
+  margin-top: 70px;
+  width: 70%;
+  
+ 
+}
+.R-Name
+{
+  position: absolute;
+  right: 50px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+
+
+}
