@@ -7,13 +7,16 @@
 {
   width: 100%;
   display: flex;
+ 
+
 }
 .name
 {
   height: 30px;
-  width: 30%;
+  width: 25%;
   padding: 10px;
   font-size: 18px;
+ 
 }
 .btn
 {
@@ -31,31 +34,42 @@
 .user-detail
 {
   display: flex;
-  /* outline: auto; */
-  border: solid 2px;
-  border-color: rgba(70, 66, 66, 0.472);
-  padding: 15px;
-  justify-content: space-around;
-  border-radius: 5px;
-  
+ align-items: center;
+
+
 }
 .displayUser
 {
   margin-top: 70px;
-  width: 70%;
-  
  
+}
+.user-info
+{
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px rgba(0, 0, 0, 0.509);
+  width: 60%;
+  padding: 10px;
 }
 .R-Name
 {
-  position: absolute;
-  right: 50px;
+
   background-color: crimson;
   color: white;
   border: none;
-  padding: 15px;
+  padding: 10px;
   font-size: 16px;
   border-radius: 5px;
 
 
+}
+.dlt-button
+{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  right: 32%;
+  
+ 
 }
